@@ -53,6 +53,32 @@ Gamma     | 16
 Inteiro   | 16
 **Total** | **96**
 
-
-
 Obs: No total 285 características
+
+## Teste Estatístico de Nemenyi
+Realizando o teste estatístico de Friedman, foi verificado que em todos os estágios do sono houve diferença estatística significativa entre os classificadores utilizados, para se averiguar quais modelos seriam menos indicados para se realizar a classificação foi realizado o pós teste de Nemenyi. 
+Com os resultados do teste foi possível averiguar que para classificação do estágio acordado houve diferença significativa entre os modelos: 
+    • Árvore de Decisão (AM de 94,36%) e Naive Bayes (AM de 74,38%) com valor p de 0,003.
+    • KNN (AM de 76,93%) e Floresta Aleatória (AM de 95,21%) com valor p de 0,003.
+    • Naive Bayes (AM de 74,38%) e Floresta Aleatória (AM de 95,21%) com valor p de 0,001.
+No estágio S1:
+    • Árvore de Decisão (AM de 80,15%) e Naive Bayes (AM de 74,88%) com valor p de 0,013.
+    • KNN (AM de 79,26%) e Floresta Aleatória (AM de 82,07%) com valor p de 0,013.
+    • Naive Bayes (AM de 74,88%) e Floresta Aleatória (AM de 82,07%) com valor p de 0,001.
+No estágio S2:
+    • Árvore de Decisão (AM de 87,9%) e Naive Bayes (AM de 72,83%) com valor p de 0,003.
+    • KNN (AM de 75,8%) e Floresta Aleatória (AM de 89,88%) com valor p de 0,003.
+    • Naive Bayes (AM de 72,83%) e Floresta Aleatória (AM de 89,88%) com valor p de 0,001.
+No estágio S3:
+    • Árvore de Decisão (AM de 89,87%) e KNN (AM de 75,02%) com valor p de 0,037.
+    • Árvore de Decisão (AM de 89,87%) e Naive Bayes (AM de 77,93%) com valor p de 0,002.
+    • KNN (AM de 75,02%) e Floresta Aleatória (AM de 91,59%) com valor p de 0,004.
+    • Naive Bayes (AM de 77,93%) e Floresta Aleatória (AM de 91,59%) com valor p de 0,001.
+No estágio S4:
+    • Árvore de Decisão (AM de 90,17%) e KNN (AM de 76,88%) com valor p de 0,001.
+    • KNN (AM de 76,88%) e Floresta Aleatória (AM de 92,99%) com valor p de 0,001.
+    • Naive Bayes (AM de 80,54%) e Floresta Aleatória (AM de 92,99%) com valor p de 0,046.
+No estágio S5:
+    • Árvore de Decisão (AM de 83,19%) e Naive Bayes (AM de 75.48%) com valor p de 0,003.
+    • KNN (AM de 77,45%) e Floresta Aleatória (AM de 85,48%) com valor p de 0,003.
+    • Naive Bayes (AM de 75.48%) e Floresta Aleatória (AM de 85,48%) com valor p de 0,001.
